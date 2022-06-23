@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Name="project" Version="1" Language="C" Type="Simple">
+  <Description/>
+  <Dependencies Name="Debug"/>
+  <VendorInfo>
+    <VendorName>new_psf_project_freedom-e-SDK(V21.11.00)_sifive_hifive1_revb_clic-nested-interrupts</VendorName>
+  </VendorInfo>
+  <Dependencies Name="BuildSet"/>
+  <VirtualDirectory Name="src">
+    <File Name="../../software/clic-nested-interrupts/clic-nested-interrupts.c"/>
+  </VirtualDirectory>
+  <DebugSessions>
+    <watchExpressions/>
+    <memoryExpressions/>
+    <statistics/>
+    <peripheralTabs/>
+    <WatchDisplayFormat/>
+    <LocalDisplayFormat/>
+    <debugLayout/>
+    <memoryTabColSizeExpressions/>
+  </DebugSessions>
+  <VirtualDirectory Name="bsp">
+    <VirtualDirectory Name="sifive-hifive1-revb">
+      <File Name="../../bsp/sifive-hifive1-revb/metal-inline.h">
+        <FileOption/>
+      </File>
+      <File Name="../../bsp/sifive-hifive1-revb/metal-platform.h">
+        <FileOption/>
+      </File>
+      <File Name="../../bsp/sifive-hifive1-revb/metal.h">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="freedom-metal">
+    <VirtualDirectory Name="gloss">
+      <File Name="../../freedom-metal/gloss/crt0.S">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/nanosleep.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_access.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_chdir.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_chmod.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_chown.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_clock_gettime.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_close.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_execve.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_exit.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_faccessat.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_fork.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_fstat.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_fstatat.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_ftime.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_getcwd.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_getpid.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_gettimeofday.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_isatty.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_kill.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_link.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_lseek.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_lstat.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_open.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_openat.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_read.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_sbrk.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_stat.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_sysconf.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_times.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_unlink.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_utime.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_wait.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/gloss/sys_write.c">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+    <VirtualDirectory Name="metal">
+      <File Name="../../freedom-metal/metal/atomic.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/button.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/cache.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/clock.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/compiler.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/cpu.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/csr.h">
+        <FileOption/>
+      </File>
+      <VirtualDirectory Name="drivers">
+        <File Name="../../freedom-metal/metal/drivers/fixed-clock.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/fixed-factor-clock.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/riscv_clint0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/riscv_cpu.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/riscv_plic0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_buserror0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_ccache0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_clic0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_fe310-g000_pll.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_fe310-g000_prci.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_global-external-interrupts0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_gpio-buttons.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_gpio-leds.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_gpio-switches.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_gpio0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_hca1_regs.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_i2c0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_l2pf0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_l2pf1.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_local-external-interrupts0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_pl2cache0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_prci0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_pwm0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_remapper2.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_rtc0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_simuart0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_spi0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_test0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_trace.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_uart0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/sifive_wdog0.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/drivers/ucb_htif0.h">
+          <FileOption/>
+        </File>
+      </VirtualDirectory>
+      <File Name="../../freedom-metal/metal/gpio.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/hpm.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/i2c.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/init.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/interrupt.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/io.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/itim.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/led.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/lim.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/lock.h">
+        <FileOption/>
+      </File>
+      <VirtualDirectory Name="machine">
+        <File Name="../../freedom-metal/metal/machine/inline.h">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/metal/machine/platform.h">
+          <FileOption/>
+        </File>
+      </VirtualDirectory>
+      <File Name="../../freedom-metal/metal/machine.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/memory.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/nmi.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/pmp.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/prci.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/privilege.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/pwm.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/remapper.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/rtc.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/scrub.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/shutdown.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/spi.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/switch.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/time.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/timer.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/tty.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/uart.h">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/metal/watchdog.h">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+    <VirtualDirectory Name="src">
+      <File Name="../../freedom-metal/src/atomic.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/button.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/cache.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/clock.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/cpu.c">
+        <FileOption/>
+      </File>
+      <VirtualDirectory Name="drivers">
+        <File Name="../../freedom-metal/src/drivers/fixed-clock.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/fixed-factor-clock.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/inline.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/riscv_clint0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/riscv_cpu.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/riscv_plic0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_buserror0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_ccache0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_clic0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_fe310-g000_hfrosc.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_fe310-g000_hfxosc.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_fe310-g000_lfrosc.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_fe310-g000_pll.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_fe310-g000_prci.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_global-external-interrupts0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_gpio-buttons.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_gpio-leds.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_gpio-switches.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_gpio0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_i2c0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_l2pf0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_l2pf1.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_local-external-interrupts0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_pl2cache0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_prci0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_pwm0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_remapper2.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_rtc0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_simuart0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_spi0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_test0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_trace.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_uart0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/sifive_wdog0.c">
+          <FileOption/>
+        </File>
+        <File Name="../../freedom-metal/src/drivers/ucb_htif0.c">
+          <FileOption/>
+        </File>
+      </VirtualDirectory>
+      <File Name="../../freedom-metal/src/entry.S">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/gpio.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/hpm.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/i2c.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/init.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/interrupt.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/led.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/lock.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/memory.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/pmp.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/prci.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/privilege.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/pwm.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/remapper.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/rtc.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/scrub.S">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/shutdown.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/spi.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/switch.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/synchronize_harts.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/time.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/timer.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/trap.S">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/tty.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/uart.c">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/vector.S">
+        <FileOption/>
+      </File>
+      <File Name="../../freedom-metal/src/watchdog.c">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <BuildConfigs>
+    <BuildConfig Name="BuildSet">
+      <Target>
+        <ROMBank Selected="1">
+          <ROM1>
+            <InUse>no</InUse>
+            <Start>0x0</Start>
+            <Size>0x20000</Size>
+          </ROM1>
+          <ROM2>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM2>
+          <ROM3>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM3>
+          <ROM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM4>
+          <ROM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM5>
+        </ROMBank>
+        <RAMBank>
+          <RAM1>
+            <InUse>yes</InUse>
+            <Start>0x20000000</Start>
+            <Size>0x80000</Size>
+            <Init>yes</Init>
+          </RAM1>
+          <RAM2>
+            <InUse>no</InUse>
+            <Start>0x50000000</Start>
+            <Size>0x800000</Size>
+            <Init>yes</Init>
+          </RAM2>
+          <RAM3>
+            <InUse>no</InUse>
+            <Start>0x60000000</Start>
+            <Size>0x20000</Size>
+            <Init>yes</Init>
+          </RAM3>
+          <RAM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM4>
+          <RAM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM5>
+        </RAMBank>
+        <CPU>e31</CPU>
+        <UseMiniLib>yes</UseMiniLib>
+        <Endian>little</Endian>
+        <UseHardFloat>no</UseHardFloat>
+        <UseEnhancedLRW>no</UseEnhancedLRW>
+        <UseContinueBuild>no</UseContinueBuild>
+        <UseSemiHost>no</UseSemiHost>
+      </Target>
+      <Output>
+        <OutputName>$(ProjectName)</OutputName>
+        <Type>Executable</Type>
+        <CreateHexFile>no</CreateHexFile>
+        <CreateBinFile>no</CreateBinFile>
+        <Preprocessor>no</Preprocessor>
+        <Disassmeble>yes</Disassmeble>
+        <CallGraph>no</CallGraph>
+        <Map>no</Map>
+      </Output>
+      <User>
+        <BeforeCompile>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </BeforeCompile>
+        <BeforeMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </BeforeMake>
+        <AfterMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </AfterMake>
+        <Tools/>
+      </User>
+      <Compiler>
+        <Define>MTIME_RATE_HZ_DEF=32768</Define>
+        <Undefine/>
+        <Optim>Optimize (-Og)</Optim>
+        <DebugLevel>Default (-g)</DebugLevel>
+        <IncludePath>../../freedom-metal</IncludePath>
+        <OtherFlags>-mcmodel=medlow --specs=nano.specs -fcommon</OtherFlags>
+        <Verbose>no</Verbose>
+        <Ansi>no</Ansi>
+        <Syntax>no</Syntax>
+        <Pedantic>no</Pedantic>
+        <PedanticErr>no</PedanticErr>
+        <InhibitWarn>no</InhibitWarn>
+        <AllWarn>yes</AllWarn>
+        <WarnErr>no</WarnErr>
+        <OneElfS>yes</OneElfS>
+        <OneElfSPerData>yes</OneElfSPerData>
+        <Fstrict>no</Fstrict>
+      </Compiler>
+      <Asm>
+        <Define>MTIME_RATE_HZ_DEF=32768</Define>
+        <Undefine/>
+        <IncludePath>../../freedom-metal</IncludePath>
+        <OtherFlags>-mcmodel=medlow --specs=nano.specs -fcommon</OtherFlags>
+        <DebugLevel>gdwarf2</DebugLevel>
+      </Asm>
+      <Linker>
+        <Garbage>yes</Garbage>
+        <Garbage2>yes</Garbage2>
+        <LDFile>$(ProjectPath)/../../bsp/sifive-hifive1-revb/metal.default.lds</LDFile>
+        <LibName>c;gcc;m</LibName>
+        <LibPath/>
+        <OtherFlags>-mcmodel=medlow --specs=nano.specs -DMTIME_RATE_HZ_DEF=32768 -fcommon</OtherFlags>
+        <AutoLDFile>no</AutoLDFile>
+        <LinkType/>
+        <IncludeAllLibs>no</IncludeAllLibs>
+      </Linker>
+      <Debug>
+        <LoadApplicationAtStartup>yes</LoadApplicationAtStartup>
+        <Connector>OpenOCD</Connector>
+        <StopAt>yes</StopAt>
+        <StopAtText>main</StopAtText>
+        <InitFile>$(ProjectPath)/gdb.init</InitFile>
+        <AfterLoadFile/>
+        <AutoRun>yes</AutoRun>
+        <ResetType>Hard Reset</ResetType>
+        <SoftResetVal>0</SoftResetVal>
+        <ResetAfterLoad>no</ResetAfterLoad>
+        <AfterResetFile/>
+        <Dumpcore>no</Dumpcore>
+        <DumpcoreText/>
+        <ConfigICE>
+          <IP>localhost</IP>
+          <PORT>1025</PORT>
+          <CPUNumber>0</CPUNumber>
+          <Clock>12000</Clock>
+          <Delay>10</Delay>
+          <NResetDelay>100</NResetDelay>
+          <WaitReset>50</WaitReset>
+          <DDC>yes</DDC>
+          <TRST>no</TRST>
+          <DebugPrint>no</DebugPrint>
+          <Connect>Normal</Connect>
+          <ResetType>soft</ResetType>
+          <SoftResetVal>0</SoftResetVal>
+          <RTOSType>None</RTOSType>
+          <DownloadToFlash>no</DownloadToFlash>
+          <ResetAfterConnect>yes</ResetAfterConnect>
+          <GDBName/>
+          <GDBServerType>Local</GDBServerType>
+          <OtherFlags/>
+          <ICEEnablePCSampling>yes</ICEEnablePCSampling>
+          <ICESamplingFreq>1000</ICESamplingFreq>
+          <RemoteICEEnablePCSampling>no</RemoteICEEnablePCSampling>
+          <RemoteICESamplingPort>1026</RemoteICESamplingPort>
+          <Version>latest</Version>
+        </ConfigICE>
+        <ConfigSIM>
+          <SIMTarget/>
+          <OtherFlags/>
+          <NoGraphic>yes</NoGraphic>
+          <Log>no</Log>
+          <SimTrace>no</SimTrace>
+          <Version>latest</Version>
+        </ConfigSIM>
+        <ConfigOpenOCD>
+          <OpenOCDExecutablePath/>
+          <OpenOCDTelnetPortEnable>no</OpenOCDTelnetPortEnable>
+          <OpenOCDTelnetPort>4444</OpenOCDTelnetPort>
+          <OpenOCDTclPortEnable>no</OpenOCDTclPortEnable>
+          <OpenOCDTclPort>6666</OpenOCDTclPort>
+          <OpenOCDConfigOptions>-f openocd_hifive1_revb.cfg</OpenOCDConfigOptions>
+          <OpenOCDTimeout>5000</OpenOCDTimeout>
+          <PluginID>openocd-sifive</PluginID>
+          <Version>latest</Version>
+        </ConfigOpenOCD>
+      </Debug>
+      <Flash>
+        <InitFile>$(ProjectPath)/flash.init</InitFile>
+        <Erase>Erase Sectors</Erase>
+        <Algorithms Path=""/>
+        <Program>no</Program>
+        <Verify>no</Verify>
+        <ResetAndRun>no</ResetAndRun>
+        <ResetType>Soft Reset</ResetType>
+        <SoftResetVal/>
+        <External>no</External>
+        <Command/>
+        <Arguments/>
+      </Flash>
+    </BuildConfig>
+  </BuildConfigs>
+</Project>
